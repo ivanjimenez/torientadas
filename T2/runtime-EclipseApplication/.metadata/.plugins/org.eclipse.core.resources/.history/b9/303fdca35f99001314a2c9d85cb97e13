@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="myother"
+    nsURI="http://myother/1.0" nsPrefix="myother">
+  <eClassifiers xsi:type="ecore:EClass" name="Cliente">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nombre"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CuentaCorriente">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numeroCuenta"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Entidad">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="direccion"/>
+  </eClassifiers>
+</ecore:EPackage>

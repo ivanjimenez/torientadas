@@ -1,0 +1,1868 @@
+!SESSION 2014-02-17 18:57:05.848 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-17 18:59:57.654
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:16:25.637
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:16:25.696
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.ui.workbench 4 0 2014-02-17 19:18:11.304
+!MESSAGE WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.PropertySheet while still in the middle of activating part org.eclipse.emf.ecore.presentation.EcoreEditorID
+!STACK 0
+java.lang.RuntimeException: WARNING: Prevented recursive attempt to activate part org.eclipse.ui.views.PropertySheet while still in the middle of activating part org.eclipse.emf.ecore.presentation.EcoreEditorID
+	at org.eclipse.ui.internal.WorkbenchPage.setActivePart(WorkbenchPage.java:3487)
+	at org.eclipse.ui.internal.WorkbenchPage.requestActivation(WorkbenchPage.java:3077)
+	at org.eclipse.ui.internal.PartPane.requestActivation(PartPane.java:279)
+	at org.eclipse.ui.internal.PartPane.handleEvent(PartPane.java:237)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3776)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1367)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1390)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1371)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1355)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Control.java:2972)
+	at org.eclipse.swt.widgets.Display.checkFocus(Display.java:618)
+	at org.eclipse.swt.widgets.Shell.makeFirstResponder(Shell.java:1112)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5086)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSWindow.makeFirstResponder(NSWindow.java:186)
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1317)
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1308)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3333)
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1022)
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1020)
+	at org.eclipse.swt.widgets.Control.fixFocus(Control.java:1237)
+	at org.eclipse.swt.widgets.Control.setVisible(Control.java:3790)
+	at org.eclipse.ui.part.PageBook.showPage(PageBook.java:118)
+	at org.eclipse.ui.part.PageBookView.showPageRec(PageBookView.java:977)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:756)
+	at org.eclipse.ui.views.properties.PropertySheet.partActivated(PropertySheet.java:325)
+	at org.eclipse.ui.part.PageBookView$4.partActivated(PageBookView.java:1010)
+	at org.eclipse.ui.internal.PartListenerList2$1.run(PartListenerList2.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartActivated(PartListenerList2.java:68)
+	at org.eclipse.ui.internal.PartService.firePartActivated(PartService.java:192)
+	at org.eclipse.ui.internal.PartService.setActivePart(PartService.java:306)
+	at org.eclipse.ui.internal.WorkbenchPagePartList.fireActivePartChanged(WorkbenchPagePartList.java:57)
+	at org.eclipse.ui.internal.PartList.setActivePart(PartList.java:136)
+	at org.eclipse.ui.internal.WorkbenchPage.setActivePart(WorkbenchPage.java:3537)
+	at org.eclipse.ui.internal.WorkbenchPage.requestActivation(WorkbenchPage.java:3077)
+	at org.eclipse.ui.internal.PartPane.requestActivation(PartPane.java:279)
+	at org.eclipse.ui.internal.EditorPane.requestActivation(EditorPane.java:98)
+	at org.eclipse.ui.internal.PartPane.handleEvent(PartPane.java:237)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:3776)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1367)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1390)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1371)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1355)
+	at org.eclipse.swt.widgets.Control.sendMouseEvent(Control.java:3036)
+	at org.eclipse.swt.widgets.Control.mouseEvent(Control.java:2244)
+	at org.eclipse.swt.widgets.Composite.mouseEvent(Composite.java:878)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2254)
+	at org.eclipse.swt.widgets.Tree.mouseDown(Tree.java:1942)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:220)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:1943)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2025)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4582)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:4659)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:115)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3274)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:33.986
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:33.987
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:33.992
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:33.994
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:33.995
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:33.996
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:33.998
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.037
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.039
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.040
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.042
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.043
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.045
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.047
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.096
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.098
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.129
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.130
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.131
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-17 19:22:34.132
+!MESSAGE Received wrong transfer data. 
+!SESSION 2014-02-17 19:40:10.689 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-17 19:40:29.757
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-02-18 11:12:23.104 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-18 11:40:30.134
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.637
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.677
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.680
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.683
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.684
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.687
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.689
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.740
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.791
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.840
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.890
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.940
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:23.990
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.040
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.064
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.067
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.098
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.101
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.113
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.115
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.130
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.133
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.147
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.150
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.164
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.170
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.196
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.199
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.231
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.234
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.272
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:24.275
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.272
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.288
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.291
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.305
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.307
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.322
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.325
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.375
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.426
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.475
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.526
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.576
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.626
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.639
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.641
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.674
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.676
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.728
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.756
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.758
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.774
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.776
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.790
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.792
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.808
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.810
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.824
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.827
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.841
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.843
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.858
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.861
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.874
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.876
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.925
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.928
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.961
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:43:26.963
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.ui 4 0 2014-02-18 11:43:30.797
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.core.runtime.AssertionFailedException: assertion failed: )
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3586)
+	at org.eclipse.swt.widgets.Display.observerProc(Display.java:3227)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:220)
+	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1025)
+	at org.eclipse.swt.widgets.Tree.mouseDownSuper(Tree.java:1974)
+	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1021)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2258)
+	at org.eclipse.swt.widgets.Tree.mouseDown(Tree.java:1942)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:220)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:1943)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2025)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:4582)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:4659)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:115)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3274)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter.asyncDrop(EditorAreaDropAdapter.java:116)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter.access$0(EditorAreaDropAdapter.java:87)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter$1.run(EditorAreaDropAdapter.java:81)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 41 more
+!SESSION 2014-02-18 11:45:10.799 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-18 11:45:39.146
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.131
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.143
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.145
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.156
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.158
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.172
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.175
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.189
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.191
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.207
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.209
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.223
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.226
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.239
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.242
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.257
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.260
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.274
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.276
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.300
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.302
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.305
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.307
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.324
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.327
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.340
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.342
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.356
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.358
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.373
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.375
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.391
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.393
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.407
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.410
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.426
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.428
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.441
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.443
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.457
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.460
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.474
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.476
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.490
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.492
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.508
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.510
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.525
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.527
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.540
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.543
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.557
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.560
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.581
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.583
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.590
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.592
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.607
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.608
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.624
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.625
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.641
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.642
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.657
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.659
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.675
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.677
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.691
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.693
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.707
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.709
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.724
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.726
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.776
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.778
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.809
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.811
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.826
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.828
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.842
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.844
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.876
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.878
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.926
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.928
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.979
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.993
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:25.995
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.009
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.011
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.026
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.027
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.043
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.045
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.059
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.061
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.076
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.078
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.092
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.094
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.110
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.112
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.126
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.128
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.179
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.229
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.256
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 11:51:26.258
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.068
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.102
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.109
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.110
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.112
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.113
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.117
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.118
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.119
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.120
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.134
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.135
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.136
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.137
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.151
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.152
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.153
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.153
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.169
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.170
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.171
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.172
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.184
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.186
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.187
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.188
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.201
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.202
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.203
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.204
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.219
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.220
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.222
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.223
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.252
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.254
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.255
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.256
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.306
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.307
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.356
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.358
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.368
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.370
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.371
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.372
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.423
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.424
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.430
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.431
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.432
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:31:23.433
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.036
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.038
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.052
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.054
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.055
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.056
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.069
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.070
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.071
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.072
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.087
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.088
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.089
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.090
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.102
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.104
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.105
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.106
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.120
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.121
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.123
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.124
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.137
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.138
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.140
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.141
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.152
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.154
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.155
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.156
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.170
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.172
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.173
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.174
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.186
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.187
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.189
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.190
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.203
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.204
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.205
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.205
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.254
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.255
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.257
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.258
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.288
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.289
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.290
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.291
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.341
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.342
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.391
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.393
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.438
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.439
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.440
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.441
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.491
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.493
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.505
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.506
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.508
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:49:43.508
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.319
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.354
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.411
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.412
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.413
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.414
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.430
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.431
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.432
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.433
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.442
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.443
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.444
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.445
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.453
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.454
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.455
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.456
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.470
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.471
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.472
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.473
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.488
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.489
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.490
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.491
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.538
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.540
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.541
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.542
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.553
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.555
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.556
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.557
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.588
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.589
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.591
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.592
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.604
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.605
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.606
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.607
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.620
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.621
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.622
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.623
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.638
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.639
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.640
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.641
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.654
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.655
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.656
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.657
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.670
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.672
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.673
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.673
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.688
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.690
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.691
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.692
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.704
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.705
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.706
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.707
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.722
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.723
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.724
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.726
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.738
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.739
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.740
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.740
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.755
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.757
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.758
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.759
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.771
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.772
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.773
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.774
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.788
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.789
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.790
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.791
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.804
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.805
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.806
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.807
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.822
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.823
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.825
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.825
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.838
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.839
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.840
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.841
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.855
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.856
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.857
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.858
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.871
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.872
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.873
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.874
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.888
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.889
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.890
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.891
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.905
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.906
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.907
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.908
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.958
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.960
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.964
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.965
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.966
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:16.967
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.532
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.533
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.549
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.550
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.551
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.552
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.565
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.566
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.568
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.569
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.582
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.583
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.584
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.585
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.600
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.601
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.603
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.604
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.616
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.617
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.619
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.620
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.633
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.635
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.636
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.637
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.649
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.650
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.652
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.653
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.666
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.667
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.668
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.669
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.683
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.684
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.686
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.687
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.699
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.700
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.702
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.702
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.717
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.718
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.720
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.721
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.749
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.751
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.752
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.753
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.803
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.804
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.854
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.855
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.903
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.904
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.953
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.954
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.985
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.986
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.988
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:45.989
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.018
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.020
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.021
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.022
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.034
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.035
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.036
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.037
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.050
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.052
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.053
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.053
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.085
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.086
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.087
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.088
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.102
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.103
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.104
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.105
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.118
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.120
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.121
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.122
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.172
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.174
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.221
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.222
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.224
+!MESSAGE Received wrong transfer data. 
+
+!ENTRY org.eclipse.jface 4 4 2014-02-18 12:52:46.225
+!MESSAGE Received wrong transfer data. 
+!SESSION 2014-02-18 18:02:10.412 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-18 18:02:42.139
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-02-19 08:33:10.071 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-19 08:33:54.706
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-02-19 10:01:49.846 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-19 10:04:27.932
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-02-19 14:27:53.821 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-19 14:28:21.860
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-02-20 09:49:48.375 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-20 09:51:00.597
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-02-20 12:58:51.738 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-20 12:59:23.884
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-02-27 17:55:41.001 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-02-27 17:56:25.201
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-27 17:56:26.901
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-04-09 18:12:21.414 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-04-09 18:12:25.432
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2014-04-09 18:12:27.123
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-04-09 18:14:07.764 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.modeling.product -keyring /Users/jimenezster/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-04-09 18:14:20.708
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

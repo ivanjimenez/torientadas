@@ -1,0 +1,301 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.emf.ecoretools.filters,0.8.0.v20100521-2009,"org.eclipse.emf.ecoretools.filters",1392734745361
+started,bundle,org.eclipse.emf.ecoretools.properties,0.8.0.v20100521-2009,"org.eclipse.emf.ecoretools.properties",1392734745372
+started,bundle,org.eclipse.emf.ecoretools.tabbedproperties,0.8.0.v20100521-2009,"org.eclipse.emf.ecoretools.tabbedproperties",1392734745417
+started,bundle,org.eclipse.emf.edit,2.6.0.v20100914-1218,"org.eclipse.emf.edit",1392734745418
+started,bundle,org.eclipse.emf.edit.ui,2.6.0.v20100914-1218,"org.eclipse.emf.edit.ui",1392734745420
+started,bundle,org.eclipse.emf.transaction,1.4.0.v20100331-1738,"org.eclipse.emf.transaction",1392734745421
+started,bundle,org.eclipse.emf.validation,1.4.0.v20100428-2315,"org.eclipse.emf.validation",1392734745422
+started,bundle,org.eclipse.emf.workspace,1.4.0.v20100224-1706,"org.eclipse.emf.workspace",1392734745423
+started,bundle,org.eclipse.equinox.app,1.3.1.R36x_v20100803,"org.eclipse.equinox.app",1392734745423
+started,bundle,org.eclipse.equinox.common,3.6.0.v20100503,"org.eclipse.equinox.common",1392734745424
+started,bundle,org.eclipse.equinox.ds,1.2.1.R36x_v20100803,"org.eclipse.equinox.ds",1392734745425
+started,bundle,org.eclipse.equinox.event,1.2.0.v20100503,"org.eclipse.equinox.event",1392734745426
+started,bundle,org.eclipse.equinox.frameworkadmin,2.0.0.v20100503,"org.eclipse.equinox.frameworkadmin",1392734745427
+started,bundle,org.eclipse.equinox.p2.core,2.0.2.R36x_v20100804,"org.eclipse.equinox.p2.core",1392734745428
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.202.R36x_v20100727,"org.eclipse.equinox.p2.directorywatcher",1392734745429
+started,bundle,org.eclipse.equinox.p2.engine,2.0.0.v20100606,"org.eclipse.equinox.p2.engine",1392734745441
+started,bundle,org.eclipse.equinox.p2.metadata,2.0.0.v20100601,"org.eclipse.equinox.p2.metadata",1392734745453
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.1.0.v20100513,"org.eclipse.equinox.p2.metadata.repository",1392734745467
+started,bundle,org.eclipse.equinox.p2.operations,2.0.0.v20100510,"org.eclipse.equinox.p2.operations",1392734745483
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.0.v20100525,"org.eclipse.equinox.p2.reconciler.dropins",1392734745498
+started,bundle,org.eclipse.equinox.p2.repository,2.0.1.R36x_v20100823,"org.eclipse.equinox.p2.repository",1392734745516
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20100507-1815,"org.eclipse.equinox.p2.ui.sdk.scheduler",1392734745516
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.101.R36x_v20100823,"org.eclipse.equinox.p2.updatechecker",1392734745527
+started,bundle,org.eclipse.equinox.preferences,3.3.0.v20100503,"org.eclipse.equinox.preferences",1392734745528
+started,bundle,org.eclipse.equinox.registry,3.5.0.v20100503,"org.eclipse.equinox.registry",1392734745529
+started,bundle,org.eclipse.equinox.security,1.0.200.v20100503,"org.eclipse.equinox.security",1392734745554
+started,bundle,org.eclipse.equinox.simpleconfigurator.manipulator,2.0.0.v20100503,"org.eclipse.equinox.simpleconfigurator.manipulator",1392734745555
+started,bundle,org.eclipse.equinox.util,1.0.200.v20100503,"org.eclipse.equinox.util",1392734745555
+started,bundle,org.eclipse.gef,3.6.1.v20100712-1224,"org.eclipse.gef",1392734745556
+started,bundle,org.eclipse.gmf.runtime.common.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.common.core",1392734745557
+started,bundle,org.eclipse.gmf.runtime.common.ui,1.4.0.v20100518-2230,"org.eclipse.gmf.runtime.common.ui",1392734745558
+started,bundle,org.eclipse.gmf.runtime.common.ui.action,1.2.0.v20090403-1720,"org.eclipse.gmf.runtime.common.ui.action",1392734745558
+started,bundle,org.eclipse.gmf.runtime.common.ui.action.ide,1.4.0.v20100223-2359,"org.eclipse.gmf.runtime.common.ui.action.ide",1392734745559
+started,bundle,org.eclipse.gmf.runtime.common.ui.services,1.3.0.v20100423-2359,"org.eclipse.gmf.runtime.common.ui.services",1392734745560
+started,bundle,org.eclipse.gmf.runtime.common.ui.services.action,1.4.0.v20100430-1518,"org.eclipse.gmf.runtime.common.ui.services.action",1392734745561
+started,bundle,org.eclipse.gmf.runtime.common.ui.services.properties,1.3.0.v20100115-2350,"org.eclipse.gmf.runtime.common.ui.services.properties",1392734745574
+started,bundle,org.eclipse.gmf.runtime.diagram.core,1.4.0.v20100331-2359,"org.eclipse.gmf.runtime.diagram.core",1392734745575
+started,bundle,org.eclipse.gmf.runtime.diagram.ui,1.4.1.v20100909-1300,"org.eclipse.gmf.runtime.diagram.ui",1392734745576
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.actions,1.4.0.v20100223-2359,"org.eclipse.gmf.runtime.diagram.ui.actions",1392734745579
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.printing,1.4.0.v20100430-1518,"org.eclipse.gmf.runtime.diagram.ui.printing",1392734745581
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.printing.render,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.diagram.ui.printing.render",1392734745581
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.properties,1.4.0.v20100430-1518,"org.eclipse.gmf.runtime.diagram.ui.properties",1392734745591
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.providers,1.4.0.v20100430-1518,"org.eclipse.gmf.runtime.diagram.ui.providers",1392734745598
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.providers.ide,1.2.0.v20090403-1720,"org.eclipse.gmf.runtime.diagram.ui.providers.ide",1392734745600
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.render,1.4.1.v20100909-1300,"org.eclipse.gmf.runtime.diagram.ui.render",1392734745606
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.resources.editor,1.4.1.v20100729-0030,"org.eclipse.gmf.runtime.diagram.ui.resources.editor",1392734745611
+started,bundle,org.eclipse.gmf.runtime.draw2d.ui,1.4.1.v20100909-1300,"org.eclipse.gmf.runtime.draw2d.ui",1392734745652
+started,bundle,org.eclipse.gmf.runtime.draw2d.ui.render,1.4.1.v20100813-0030,"org.eclipse.gmf.runtime.draw2d.ui.render",1392734745653
+started,bundle,org.eclipse.gmf.runtime.emf.commands.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.emf.commands.core",1392734745654
+started,bundle,org.eclipse.gmf.runtime.emf.core,1.4.1.v20100909-1300,"org.eclipse.gmf.runtime.emf.core",1392734745654
+started,bundle,org.eclipse.gmf.runtime.emf.type.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.emf.type.core",1392734745673
+started,bundle,org.eclipse.gmf.runtime.emf.ui,1.2.0.v20090403-1720,"org.eclipse.gmf.runtime.emf.ui",1392734745674
+started,bundle,org.eclipse.gmf.runtime.gef.ui,1.4.0.v20100430-1518,"org.eclipse.gmf.runtime.gef.ui",1392734745675
+started,bundle,org.eclipse.gmf.runtime.notation,1.4.1.v20100717-0059,"org.eclipse.gmf.runtime.notation",1392734745711
+started,bundle,org.eclipse.help,3.5.0.v20100524,"org.eclipse.help",1392734745721
+started,bundle,org.eclipse.jdt.core,3.6.1.v_A68_R36x,"org.eclipse.jdt.core",1392734745722
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20100520-0800,"org.eclipse.jdt.core.manipulation",1392734745723
+started,bundle,org.eclipse.jdt.launching,3.5.100.v20100526,"org.eclipse.jdt.launching",1392734745739
+started,bundle,org.eclipse.jdt.launching.macosx,3.2.100.v20100505,"org.eclipse.jdt.launching.macosx",1392734745740
+started,bundle,org.eclipse.jdt.ui,3.6.1.r361_v20100825-0800,"org.eclipse.jdt.ui",1392734745745
+started,bundle,org.eclipse.jface,3.6.1.M20100825-0800,"org.eclipse.jface",1392734745746
+started,bundle,org.eclipse.jsch.core,1.1.200.I20100505-1245,"org.eclipse.jsch.core",1392734745746
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1392734745747
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1392734745773
+started,bundle,org.eclipse.mylyn.commons.net,3.4.1.v20100625-2100-e3x,"org.eclipse.mylyn.commons.net",1392734745773
+started,bundle,org.eclipse.mylyn.commons.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.commons.ui",1392734745788
+started,bundle,org.eclipse.mylyn.context.core,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.core",1392734745789
+started,bundle,org.eclipse.mylyn.context.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.ui",1392734745790
+started,bundle,org.eclipse.mylyn.monitor.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.monitor.ui",1392734745791
+started,bundle,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui",1392734745870
+started,bundle,org.eclipse.mylyn.team.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.team.ui",1392734745871
+started,bundle,org.eclipse.pde,3.6.1.v201009090800,"org.eclipse.pde",1392734745872
+started,bundle,org.eclipse.pde.core,3.6.1.v20100902_r361,"org.eclipse.pde.core",1392734745873
+started,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1392734745892
+started,bundle,org.eclipse.team.core,3.5.100.R36x_v20100825-0800,"org.eclipse.team.core",1392734745893
+started,bundle,org.eclipse.team.cvs.core,3.3.300.I20100526-0800,"org.eclipse.team.cvs.core",1392734745894
+started,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1392734745896
+started,bundle,org.eclipse.team.ui,3.5.101.R36x_v20100825-0800,"org.eclipse.team.ui",1392734745898
+started,bundle,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui",1392734745901
+started,bundle,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console",1392734745917
+started,bundle,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.editors",1392734745932
+started,bundle,org.eclipse.ui.forms,3.5.2.r36_v20100702,"org.eclipse.ui.forms",1392734745938
+started,bundle,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.ide",1392734745940
+started,bundle,org.eclipse.ui.navigator,3.5.0.I20100601-0800,"org.eclipse.ui.navigator",1392734745941
+started,bundle,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.resources",1392734745942
+started,bundle,org.eclipse.ui.net,1.2.100.I20100505-1245,"org.eclipse.ui.net",1392734745949
+started,bundle,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views",1392734745950
+started,bundle,org.eclipse.ui.views.properties.tabbed,3.5.100.I20100509-0800,"org.eclipse.ui.views.properties.tabbed",1392734745951
+started,bundle,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"org.eclipse.ui.workbench",1392734745952
+started,bundle,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.workbench.texteditor",1392734745973
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1392734745974
+started,bundle,org.eclipse.update.core,3.2.402.R36x_v20100629,"org.eclipse.update.core",1392734745991
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1392734746013
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201102081640,"org.eclipse.epp.usagedata.gathering",1392734746026
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201102081640,"org.eclipse.epp.usagedata.recording",1392734746027
+os,sysinfo,,,"macosx",1392734746031
+arch,sysinfo,,,"x86_64",1392734746031
+ws,sysinfo,,,"cocoa",1392734746031
+locale,sysinfo,,,"es_ES",1392734746032
+processors,sysinfo,,,"2",1392734746032
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1392734746032
+java.runtime.version,sysinfo,,,"1.6.0_65-b14-462-11M4609",1392734746032
+java.specification.name,sysinfo,,,"Java Platform API Specification",1392734746032
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1392734746032
+java.specification.version,sysinfo,,,"1.6",1392734746032
+java.vendor,sysinfo,,,"Apple Inc.",1392734746032
+java.version,sysinfo,,,"1.6.0_65",1392734746032
+java.vm.info,sysinfo,,,"mixed mode",1392734746032
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1392734746032
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1392734746032
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1392734746032
+java.vm.specification.version,sysinfo,,,"1.0",1392734746032
+java.vm.vendor,sysinfo,,,"Apple Inc.",1392734746032
+java.vm.version,sysinfo,,,"20.65-b04-462",1392734746032
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1392734746149
+started,bundle,org.eclipse.jdt.apt.core,3.3.401.R36_v20100727-0110,"org.eclipse.jdt.apt.core",1392734747166
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.301.R36_v20100727-0110,"org.eclipse.jdt.apt.pluggable.core",1392734747235
+started,bundle,org.eclipse.emf.ecore.editor,2.6.0.v20100914-1218,"org.eclipse.emf.ecore.editor",1392734761348
+opened,editor,org.eclipse.emf.ecore.editor,2.6.0.v20100914-1218,"org.eclipse.emf.ecore.presentation.EcoreEditorID",1392734764560
+activated,editor,org.eclipse.emf.ecore.editor,2.6.0.v20100914-1218,"org.eclipse.emf.ecore.presentation.EcoreEditorID",1392734764802
+started,bundle,org.eclipse.compare,3.5.100.I20100526-0800,"org.eclipse.compare",1392734774964
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392734780147
+activated,editor,org.eclipse.emf.ecore.editor,2.6.0.v20100914-1218,"org.eclipse.emf.ecore.presentation.EcoreEditorID",1392734782833
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734784056
+started,bundle,org.eclipse.emf.validation.ui,1.3.0.v200901271722,"org.eclipse.emf.validation.ui",1392734784792
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734784875
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392734784895
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392734787514
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734792273
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734859740
+started,bundle,org.eclipse.ocl,3.0.1.R30x_v201008251030,"org.eclipse.ocl",1392734867955
+started,bundle,org.eclipse.ocl.ecore,3.0.1.R30x_v201008251030,"org.eclipse.ocl.ecore",1392734867984
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734873367
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734878315
+activated,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.PropertySheet",1392734884257
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734888220
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734892285
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734893663
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734894554
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392734897472
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734899430
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734905232
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392734906910
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734925400
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734929583
+activated,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.PropertySheet",1392734931215
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734934163
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734938243
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392734945197
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392734957277
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1392734968392
+started,bundle,org.eclipse.ocl.edit,3.0.0.R30x_v201008251030,"org.eclipse.ocl.edit",1392734969269
+started,bundle,org.eclipse.ocl.ecore.edit,3.0.0.R30x_v201008251030,"org.eclipse.ocl.ecore.edit",1392734969271
+activated,editor,org.eclipse.emf.ecore.editor,2.6.0.v20100914-1218,"org.eclipse.emf.ecore.presentation.EcoreEditorID",1392734976684
+activated,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.PropertySheet",1392734987034
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392734989786
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735002423
+activated,editor,org.eclipse.emf.ecore.editor,2.6.0.v20100914-1218,"org.eclipse.emf.ecore.presentation.EcoreEditorID",1392735004940
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735014112
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735018735
+activated,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.PropertySheet",1392735020723
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735022968
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735024883
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735027784
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735028030
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392735028054
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735029661
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735039361
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735041216
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735043282
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735049336
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735052292
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735066944
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735067302
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392735067326
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392735071333
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392735072194
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1392735079428
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392735082102
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1392735084788
+error,log,,,"Received wrong transfer data. ",1392735085131
+error,log,,,"Received wrong transfer data. ",1392735085143
+error,log,,,"Received wrong transfer data. ",1392735085145
+error,log,,,"Received wrong transfer data. ",1392735085156
+error,log,,,"Received wrong transfer data. ",1392735085159
+error,log,,,"Received wrong transfer data. ",1392735085173
+error,log,,,"Received wrong transfer data. ",1392735085175
+error,log,,,"Received wrong transfer data. ",1392735085189
+error,log,,,"Received wrong transfer data. ",1392735085191
+error,log,,,"Received wrong transfer data. ",1392735085207
+error,log,,,"Received wrong transfer data. ",1392735085209
+error,log,,,"Received wrong transfer data. ",1392735085224
+error,log,,,"Received wrong transfer data. ",1392735085226
+error,log,,,"Received wrong transfer data. ",1392735085239
+error,log,,,"Received wrong transfer data. ",1392735085242
+error,log,,,"Received wrong transfer data. ",1392735085257
+error,log,,,"Received wrong transfer data. ",1392735085260
+error,log,,,"Received wrong transfer data. ",1392735085274
+error,log,,,"Received wrong transfer data. ",1392735085277
+error,log,,,"Received wrong transfer data. ",1392735085300
+error,log,,,"Received wrong transfer data. ",1392735085302
+error,log,,,"Received wrong transfer data. ",1392735085306
+error,log,,,"Received wrong transfer data. ",1392735085307
+error,log,,,"Received wrong transfer data. ",1392735085324
+error,log,,,"Received wrong transfer data. ",1392735085327
+error,log,,,"Received wrong transfer data. ",1392735085340
+error,log,,,"Received wrong transfer data. ",1392735085342
+error,log,,,"Received wrong transfer data. ",1392735085356
+error,log,,,"Received wrong transfer data. ",1392735085358
+error,log,,,"Received wrong transfer data. ",1392735085373
+error,log,,,"Received wrong transfer data. ",1392735085375
+error,log,,,"Received wrong transfer data. ",1392735085391
+error,log,,,"Received wrong transfer data. ",1392735085393
+error,log,,,"Received wrong transfer data. ",1392735085408
+error,log,,,"Received wrong transfer data. ",1392735085410
+error,log,,,"Received wrong transfer data. ",1392735085426
+error,log,,,"Received wrong transfer data. ",1392735085428
+error,log,,,"Received wrong transfer data. ",1392735085441
+error,log,,,"Received wrong transfer data. ",1392735085443
+error,log,,,"Received wrong transfer data. ",1392735085457
+error,log,,,"Received wrong transfer data. ",1392735085460
+error,log,,,"Received wrong transfer data. ",1392735085474
+error,log,,,"Received wrong transfer data. ",1392735085476
+error,log,,,"Received wrong transfer data. ",1392735085490
+error,log,,,"Received wrong transfer data. ",1392735085492
+error,log,,,"Received wrong transfer data. ",1392735085508
+error,log,,,"Received wrong transfer data. ",1392735085510
+error,log,,,"Received wrong transfer data. ",1392735085525
+error,log,,,"Received wrong transfer data. ",1392735085527
+error,log,,,"Received wrong transfer data. ",1392735085541
+error,log,,,"Received wrong transfer data. ",1392735085543
+error,log,,,"Received wrong transfer data. ",1392735085557
+error,log,,,"Received wrong transfer data. ",1392735085560
+error,log,,,"Received wrong transfer data. ",1392735085581
+error,log,,,"Received wrong transfer data. ",1392735085583
+error,log,,,"Received wrong transfer data. ",1392735085590
+error,log,,,"Received wrong transfer data. ",1392735085592
+error,log,,,"Received wrong transfer data. ",1392735085607
+error,log,,,"Received wrong transfer data. ",1392735085609
+error,log,,,"Received wrong transfer data. ",1392735085624
+error,log,,,"Received wrong transfer data. ",1392735085626
+error,log,,,"Received wrong transfer data. ",1392735085641
+error,log,,,"Received wrong transfer data. ",1392735085642
+error,log,,,"Received wrong transfer data. ",1392735085658
+error,log,,,"Received wrong transfer data. ",1392735085659
+error,log,,,"Received wrong transfer data. ",1392735085675
+error,log,,,"Received wrong transfer data. ",1392735085678
+error,log,,,"Received wrong transfer data. ",1392735085691
+error,log,,,"Received wrong transfer data. ",1392735085693
+error,log,,,"Received wrong transfer data. ",1392735085708
+error,log,,,"Received wrong transfer data. ",1392735085709
+error,log,,,"Received wrong transfer data. ",1392735085725
+error,log,,,"Received wrong transfer data. ",1392735085726
+error,log,,,"Received wrong transfer data. ",1392735085776
+error,log,,,"Received wrong transfer data. ",1392735085778
+error,log,,,"Received wrong transfer data. ",1392735085810
+error,log,,,"Received wrong transfer data. ",1392735085811
+error,log,,,"Received wrong transfer data. ",1392735085826
+error,log,,,"Received wrong transfer data. ",1392735085828
+error,log,,,"Received wrong transfer data. ",1392735085843
+error,log,,,"Received wrong transfer data. ",1392735085844
+error,log,,,"Received wrong transfer data. ",1392735085876
+error,log,,,"Received wrong transfer data. ",1392735085878
+error,log,,,"Received wrong transfer data. ",1392735085927
+error,log,,,"Received wrong transfer data. ",1392735085928
+error,log,,,"Received wrong transfer data. ",1392735085979
+error,log,,,"Received wrong transfer data. ",1392735085993
+error,log,,,"Received wrong transfer data. ",1392735085995
+error,log,,,"Received wrong transfer data. ",1392735086010
+error,log,,,"Received wrong transfer data. ",1392735086012
+error,log,,,"Received wrong transfer data. ",1392735086026
+error,log,,,"Received wrong transfer data. ",1392735086028
+error,log,,,"Received wrong transfer data. ",1392735086043
+error,log,,,"Received wrong transfer data. ",1392735086045
+error,log,,,"Received wrong transfer data. ",1392735086059
+error,log,,,"Received wrong transfer data. ",1392735086061
+error,log,,,"Received wrong transfer data. ",1392735086076
+error,log,,,"Received wrong transfer data. ",1392735086078
+error,log,,,"Received wrong transfer data. ",1392735086093
+error,log,,,"Received wrong transfer data. ",1392735086094
+error,log,,,"Received wrong transfer data. ",1392735086110
+error,log,,,"Received wrong transfer data. ",1392735086112
+error,log,,,"Received wrong transfer data. ",1392735086126
+error,log,,,"Received wrong transfer data. ",1392735086128
+error,log,,,"Received wrong transfer data. ",1392735086180
+error,log,,,"Received wrong transfer data. ",1392735086229
+error,log,,,"Received wrong transfer data. ",1392735086257
+error,log,,,"Received wrong transfer data. ",1392735086258
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.100.v20100526-0800,"org.eclipse.ltk.core.refactoring",1392735096441
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735099845
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735103284
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392735106620
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392735109627
+activated,editor,org.eclipse.emf.ecore.editor,2.6.0.v20100914-1218,"org.eclipse.emf.ecore.presentation.EcoreEditorID",1392735112277
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735122760
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1392735123010
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1392735123033
+activated,editor,org.eclipse.emf.ecoretools.diagram,0.10.0.v20100521-2009,"org.eclipse.emf.ecoretools.diagram.part.EcoreDiagramEditorID",1392735125341
+activated,view,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views.PropertySheet",1392735141207
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.undo",1392735145592
