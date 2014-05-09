@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_pNF5UdeUEeO8bOcyXM_hZQ" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_pPAk4NeUEeO8bOcyXM_hZQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_pPXKMNeUEeO8bOcyXM_hZQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_pPZmcNeUEeO8bOcyXM_hZQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_pPcCsNeUEeO8bOcyXM_hZQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="UML.ecore#//Package/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pPcCsdeUEeO8bOcyXM_hZQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_pPZmcdeUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_pPZmcteUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_pPZmc9eUEeO8bOcyXM_hZQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_pPaNgNeUEeO8bOcyXM_hZQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_pPaNgdeUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_pPa0kNeUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_pPa0kdeUEeO8bOcyXM_hZQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_pPAk4deUEeO8bOcyXM_hZQ" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="UML.ecore#//Package"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pPAk4teUEeO8bOcyXM_hZQ"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_wck-0NeUEeO8bOcyXM_hZQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_wcmM8NeUEeO8bOcyXM_hZQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_wcm0ANeUEeO8bOcyXM_hZQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_wcm0AdeUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wcm0AteUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wcm0A9eUEeO8bOcyXM_hZQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_wcm0BNeUEeO8bOcyXM_hZQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_wcm0BdeUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wcm0BteUEeO8bOcyXM_hZQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wcm0B9eUEeO8bOcyXM_hZQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_wck-0deUEeO8bOcyXM_hZQ" fontColor="4210752" fontName="Lucida Grande" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="UML.ecore#//Association"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wck-0teUEeO8bOcyXM_hZQ" x="95" y="113"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_pNGgYNeUEeO8bOcyXM_hZQ"/>
+  <element xmi:type="ecore:EPackage" href="UML.ecore#/"/>
+</notation:Diagram>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umlMM:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:umlMM="http://es.uclm/umlMM">
+  <classifier xsi:type="umlMM:Class" name="CuentaCorriente">
+    <attribute name="NumeroCuenta" type="//@classifier.2"/>
+  </classifier>
+  <classifier xsi:type="umlMM:Class" name="Cliente"/>
+  <classifier xsi:type="umlMM:Datatype" name="Integer" typeOf="//@classifier.0/@attribute.0"/>
+  <classifier xsi:type="umlMM:Datatype" name="String"/>
+</umlMM:Package>
